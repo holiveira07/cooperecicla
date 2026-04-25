@@ -1,0 +1,59 @@
+/************************
+ Responsividade header 
+ ************************/
+
+@media (max-width: 838px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+  }
+
+  .nav-bar ul {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+}
+
+/************************
+ Responsividade main
+ ************************/
+
+@media (max-width: 768) {
+  main {
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sistema {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .botoes button {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero h2 {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .sobre,
+  .sistema {
+    border-radius: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .sobre,
+  .sistema {
+    border-radius: 0;
+  }
+}

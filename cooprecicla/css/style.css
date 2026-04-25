@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #2e7d32;
+  color: snow;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+body {
+  background-color: #f4f6f8;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*********************
+ Estilização do header 
+ *********************/
+
+header {
+  background-color: #31ac37;
+  color: snow;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.8rem 3rem;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  color: snow;
+}
+
+.logo p {
+  font-size: 0.9rem;
+  margin-top: 0.3rem;
+}
+
+.nav-bar ul {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  list-style: none;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: snow;
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.nav-bar a:hover {
+  background-color: rgb(44, 136, 139);
+  color: #f4f4f4;
+  background-color: #1b5e20;
+}
+
+/*******************
+ Estilização do main
+ *******************/
+
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.content section {
+  padding: 3rem 2rem;
+}
+.hero {
+  text-align: center;
+}
+
+.hero h2 {
+  margin-bottom: 15px;
+}
+
+.hero p {
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.sobre {
+  background-color: white;
+  border-radius: 10px;
+}
+
+.sobre h2 {
+  margin-bottom: 8px;
+}
+
+.sobre p {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.sistema {
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.sistema h2 {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+select,
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1.5px solid rgba(0, 128, 0, 0.555);
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: medium;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.botoes {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.botoes button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  background-color: #2e7d32;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.botoes button:hover {
+  background-color: #1b5e20;
+}
+
+#resultado {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #e8f5e9;
+  border-radius: 5px;
+  font-weight: bolder;
+}
+
+#lista {
+  margin-top: 15px;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: medium;
+  list-style: circle;
+}
+
+.contato {
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.contato p,
+a {
+  margin-top: 8px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #31ac37;
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 15px;
+  align-items: center;
+  padding: 2rem;
+}
